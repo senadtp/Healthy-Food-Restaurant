@@ -42,7 +42,7 @@ header .fixed-top #navbarToggleExternalContent .nav-link {
   color: #cccfcf;
   font-family: 'Ubuntu';
   font-size: 170%;
-  padding-left: 30px;
+  padding: 0px 15px;
 }
 
 header .fixed-top #navbarToggleExternalContent .nav-link:hover {
@@ -54,9 +54,9 @@ header .fixed-top.change-fix-top {
   left: 0;
   right: 0;
   margin-top: 0;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.6);
   max-width: 100%;
-  padding: 1% 21%;
+  padding: 1% 8%;
 }
 
 #home {
@@ -64,8 +64,8 @@ header .fixed-top.change-fix-top {
   background-color: #e3ecc2;
   background-size: 100% 100%;
   background-repeat: no-repeat;
-  -o-object-fit: contain;
-     object-fit: contain;
+  -o-object-fit: fill;
+     object-fit: fill;
   position: relative;
   max-width: 100%;
   max-height: 100%;
@@ -226,8 +226,8 @@ header .fixed-top.change-fix-top {
   background-color: #e3ecc2;
   background-size: 100% 100%;
   background-repeat: no-repeat;
-  -o-object-fit: contain;
-     object-fit: contain;
+  -o-object-fit: fill;
+     object-fit: fill;
   position: relative;
   left: 0;
   right: 0;
@@ -486,10 +486,33 @@ header .fixed-top.change-fix-top {
   #ourMenu #white-bg2 .lead {
     font-size: 25px;
   }
+  #free h1 {
+    padding-top: 100px;
+    color: #7287ae;
+    font-family: 'Ubuntu', serif;
+    font-size: 60px;
+  }
+  #free p {
+    padding-top: 40px;
+    font-size: 27px;
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+  #free .btn {
+    font-size: 27px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+  }
 }
 
 @media only screen and (max-width: 992px) {
+  header {
+    margin: auto;
+    text-align: center;
+  }
   #home {
+    background-color: #7287ae;
+    background-image: none;
     padding-bottom: 20px;
     padding-top: 80px;
   }
@@ -540,6 +563,23 @@ header .fixed-top.change-fix-top {
   #agus #p2 {
     padding: 0 100px;
   }
+  #free h1 {
+    padding-top: 70px;
+    color: #7287ae;
+    font-family: 'Ubuntu', serif;
+    font-size: 50px;
+  }
+  #free p {
+    padding-top: 20px;
+    font-size: 25px;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  #free .btn {
+    font-size: 25px;
+    margin-top: 50px;
+    margin-bottom: 60px;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -575,50 +615,40 @@ header .fixed-top.change-fix-top {
     font-size: 25px;
   }
   #free h1 {
-    padding-top: 50px;
+    padding-top: 20px;
     color: #7287ae;
     font-family: 'Ubuntu', serif;
-    font-size: 50px;
+    font-size: 40px;
   }
   #free p {
-    padding-top: 30px;
-    color: #7287ae;
-    font-family: 'Lato';
-    font-size: 25px;
-    padding-right: 80px;
-    padding-left: 80px;
+    padding-top: 20px;
+    font-size: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
   }
   #free .btn {
-    font-size: 25px;
+    font-size: 15px;
     margin-top: 30px;
-    margin-bottom: 50px;
-    background-color: #7287ae;
-    color: azure;
-    padding: 10px 60px;
-    border-radius: 35px;
-    cursor: pointer;
-    -webkit-border-radius: 35px;
-    -moz-border-radius: 35px;
-    -ms-border-radius: 35px;
-    -o-border-radius: 35px;
-    font-family: 'Ubuntu', serif;
+    margin-bottom: 20px;
   }
   #about {
     display: none;
   }
   #agus {
+    margin: auto;
+    text-align: center;
     background-color: #e3ecc2;
     padding-top: 20px;
   }
   #agus #p1 {
-    font-size: 50px;
+    font-size: 40px;
     font-family: 'Lato';
     color: #7287ae;
   }
   #agus #p2 {
-    font-size: 30px;
+    font-size: 25px;
     font-family: 'Lato';
-    padding: 0 200px;
+    padding: 0 100px;
     color: #7287ae;
   }
   #agus #p3 {
